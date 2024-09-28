@@ -17,10 +17,17 @@ class Program
         job2._startYear = "2022";
         job2._endYear = "2024";
 
+        Job job3 = new Job();
+        job3._company = "Apple";
+        job3._jobTitle = "VP Of Sales";
+        job3._startYear = "2024";
+        job3._endYear = "Present";
+
         Resume myResume = new Resume();
         myResume._name = "Cameron Burton";
         myResume._jobs.Add(job1);
         myResume._jobs.Add(job2);
+        myResume._jobs.Add(job3);
 
         myResume.Display();
     }
