@@ -13,7 +13,7 @@ class Program
         Console.WriteLine($"{assignment2.GetSummary()}");
         Console.WriteLine($"{assignment2.GetHomeworkList()}\n");
 
-        WritingAssignment assignment3 = new WritingAssignment("Elizabeth", "Exercise Science", "The Effects of Muscular Hypertophy");
+        WritingAssignment assignment3 = new WritingAssignment("Elizabeth", "Exercise Science", "The Effects of Muscular Hypertrophy");
 
         Console.WriteLine($"{assignment3.GetSummary()}");
         Console.WriteLine($"{assignment3.GetWritingInformation()}\n");
