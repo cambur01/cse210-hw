@@ -1,0 +1,4 @@
+300
+SimpleGoal:Go to the temple,bring a family name for endowments,200,True
+EternalGoal:Read the BofM,at least 5 verses,50
+ChecklistGoal:Attend church,including second hour,50,1,4,200

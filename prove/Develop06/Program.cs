@@ -4,6 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop06 World!");
+        Console.Clear();
+        Console.WriteLine("Welcome to your goal tracker!\n");
+        GoalManager test = new GoalManager();
+        test.Start();
     }
 }
